@@ -1,0 +1,22 @@
+@charset "utf-8";
+@import "../node_modules/bulma/bulma.sass";
+
+$body-background-color: hsla(0, 0%, 100%, 0.966);
+
+
+.footer {
+    bottom: -45px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 30;
+}
+
+
+.section {
+    background-color: $body-background-color;
+}
+
+.has-bg-img {
+    background: url('../src/images/books.jpg');
+}
